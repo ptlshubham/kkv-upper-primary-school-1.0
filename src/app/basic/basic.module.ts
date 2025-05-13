@@ -9,6 +9,8 @@ import { ActivityComponent } from './activity/activity.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
+import { AchievementsComponent } from './achievements/achievements.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 
@@ -18,6 +20,7 @@ import { AboutComponent } from './about/about.component';
     ActivityComponent,
     ContactComponent,
     AboutComponent,
+    AchievementsComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +28,8 @@ import { AboutComponent } from './about/about.component';
     RouterModule.forChild(BasicRoutes),
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxPaginationModule,
   ]
 })
 export class BasicModule { }

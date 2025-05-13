@@ -1,7 +1,13 @@
+
 .intro-section .intro-tabb {
     position: relative;
     border: none;
   }
+ /* .intro-section .intro-tabb .tab-btns {
+    position: relative;
+    text-align: center;
+    width: 25%;
+  } */
   .intro-section .intro-tabb .tab-btns .tab-btn {
     position: relative;
     display: block;
@@ -19,20 +25,17 @@
     text-transform: capitalize;
     transition: all 500ms ease;
   }
-  
   .intro-section .intro-tabb .tab-btns .tab-btn:hover,
   .intro-section .intro-tabb .tab-btns .tab-btn.active {
     color: #ffffff;
     background: #b10067;
     border-color: #b10067;
-  }
-  
-  .intro-section .intro-tabb .tabs-content {
+   }
+ .intro-section .intro-tabb .tabs-content {
     position: relative;
     overflow: hidden;
     background-color: #ffffff;
   }
-  
   .intro-section .intro-tabb .tabs-content .minutes {
     position: relative;
     color: #b10067;
@@ -40,9 +43,13 @@
     font-weight: 500;
     margin-top: 12px;
   }
-  
-  .scrollable-content {
-    max-height: 1080px;
-    overflow-y: auto;
-    overflow-x: auto;
+  .tab-btns{
+    padding: 5px !important;
   }
+  .rs-team.style1 .team-item .content-part{
+    top:45% !important;
+}
+
+.textCustom{
+    color: white !important;
+}

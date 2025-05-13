@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dnhs-secondary-higher-secondary": {
+    "kkv-upper-primary-school": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dnhs-secondary-higher-secondary",
+            "outputPath": "dist/kkv-upper-primary-school",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -99,10 +99,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dnhs-secondary-higher-secondary:build:production"
+              "buildTarget": "kkv-upper-primary-school:build:production"
             },
             "development": {
-              "buildTarget": "dnhs-secondary-higher-secondary:build:development"
+              "buildTarget": "kkv-upper-primary-school:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -110,7 +110,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "dnhs-secondary-higher-secondary:build"
+            "buildTarget": "kkv-upper-primary-school:build"
           }
         },
         "test": {
