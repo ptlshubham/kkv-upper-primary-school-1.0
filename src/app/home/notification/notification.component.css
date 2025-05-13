@@ -1,0 +1,22 @@
+.blinking-bg {
+    height: auto;
+    width: 100% !important;
+    background-color: #4d4d92;
+    border-radius: 5px;
+}
+
+.p-0 {
+    padding: 0px !important;
+}
+
+.custom {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+}
+
+.notification-item {
+    display: inline-block;
+    margin-right: 10px; /* Reduce space between notifications */
+    padding: 0px !important; /* Ensure no extra padding */
+    line-height: normal; /* Adjust line height */
+}
